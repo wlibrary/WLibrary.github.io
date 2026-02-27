@@ -1,0 +1,21 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif;}
+body{line-height:1.6;}
+.container{max-width:1000px;margin:auto;padding:20px;}
+header.hero{background:#f1f5f9;text-align:center;padding:60px 20px;}
+header.hero h1{font-size:2.5em;margin-bottom:20px;}
+header.hero p{font-size:1.2em;margin-bottom:20px;}
+header.hero .scarcity{color:red;font-weight:bold;margin-top:10px;}
+.btn{background:#ff6b6b;color:#fff;padding:15px 30px;text-decoration:none;font-weight:bold;border-radius:5px;transition:.3s;}
+.btn:hover{background:#ff3b3b;}
+section{padding:50px 20px;}
+section h2{font-size:2em;margin-bottom:20px;text-align:center;}
+ul{list-style:none;}
+ul li{padding:10px 0;font-size:1.1em;}
+blockquote{background:#f9f9f9;padding:15px;margin:20px 0;border-left:5px solid #ff6b6b;}
+details summary{cursor:pointer;padding:10px;background:#f1f5f9;margin-bottom:10px;font-weight:bold;}
+footer{background:#222;color:#fff;text-align:center;padding:30px 20px;}
+.pricing-cards{display:flex;justify-content:space-around;flex-wrap:wrap;}
+.card{border:1px solid #ddd;padding:20px;border-radius:10px;margin:10px;width:300px;text-align:center;}
+.recommended{border:2px solid #ff6b6b;}
+.price{font-size:1.5em;color:#ff6b6b;margin:15px 0;}
+@media(max-width:768px){header.hero h1{font-size:2em;} header.hero p{font-size:1em;} .pricing-cards{flex-direction:column;align-items:center;}}
